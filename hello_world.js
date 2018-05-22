@@ -19,7 +19,7 @@ function canvasApp() {
         // Image
         var helloWorldImage = new Image();
         helloWorldImage.onload = function() {
-            context.drawImage(helloWorldImage, 120, 60);
+            context.drawImage(./bilder/helloWorldImage, 120, 60);
         }
         helloWorldImage.src = "hello_world.png";
 
