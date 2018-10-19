@@ -14,6 +14,7 @@ function canvasApp() {
     helloWorldImage.src = "./bilder/html5bg.png";
 
     function drawScreen() {
+
         // Bakgrunden
         context.globalAlpha = 1;
         context.fillStyle = "#000000";
@@ -38,6 +39,7 @@ function canvasApp() {
             }
         }
 
+        // För ändra graden av transparens på det som ritas
         context.globalAlpha = alpha;
 
         // Texten
